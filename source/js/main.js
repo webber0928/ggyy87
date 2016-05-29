@@ -104,8 +104,8 @@
     // elevator
     var elevator = new Elevator({
       element: document.querySelector('#elevator-btn'),
-      mainAudio: '/dist/music/elevator.mp3',
-      endAudio:  '/dist/music/ding.mp3'
+      mainAudio: './dist/music/elevator.mp3',
+      endAudio:  './dist/music/ding.mp3'
     });
 
     // Reveal Navbar
